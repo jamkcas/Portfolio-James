@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px) {
+  .philosophy, .rDetails, .lDetails {
+    color: white;
+  }
+
+  .rImage, .lImage, .rDetails, .lDetails {
+    float: none;
+    margin: auto;
+    width: 70%;
+  }
+
+  .rightDetails, .rightSubtitle, .leftDetails, .leftSubtitle, .nextProject, .previousProject {
+    display: none;
+  }
+
+  .mainFooter {
+    background: #020202;
+  }
+
+  .rightTitle, .leftTitle {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mainNav, .mainHeader hgroup {
+    float: none;
+  }
+
+  .mainHeader {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .mainHeader h3 {
+    margin: 0px;
+  }
+
+  .siteNavs li:first-child {
+    margin-left: 0px;
+  }
+
+  .symbol:hover {
+    -webkit-transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rImage, .lImage, .rDetails, .lDetails {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .rDetails h3, .lDetails h3 {
+    font-size: 15px;
+  }
+
+  .rightLinks, .leftLinks {
+    font-size: 12px;
+  }
+}
